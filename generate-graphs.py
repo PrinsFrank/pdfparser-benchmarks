@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import json
 
-with open('benchmarks_total.json', 'r') as f:
+with open('public/benchmarks_total.json', 'r') as f:
     data = json.load(f)
 
 libraries = list(data.keys())

@@ -30,7 +30,7 @@ class BenchMarkRunner {
             }
         }
 
-        file_put_contents(dirname(__DIR__) . '/' . self::OUTPUT_FILE, json_encode($benchMarks, JSON_PRETTY_PRINT));
+        file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE, json_encode($benchMarks, JSON_PRETTY_PRINT));
 
         $totalData = [];
         foreach ($benchMarks as $libraryIdentifier => $data) {
@@ -42,7 +42,7 @@ class BenchMarkRunner {
             ];
         }
 
-        file_put_contents(dirname(__DIR__) . '/' . self::OUTPUT_FILE_TOTAL, json_encode($totalData, JSON_PRETTY_PRINT));
+        file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE_TOTAL, json_encode($totalData, JSON_PRETTY_PRINT));
 
         return 0;
     }
