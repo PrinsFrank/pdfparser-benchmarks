@@ -1,0 +1,370 @@
+{
+    "smalot\/pdfparser": [
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-watermarked\/file.pdf",
+            "ms": 0.8867263793945312,
+            "bytes": 70168,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-hello-world-simple\/file.pdf",
+            "ms": 0.9026050567626953,
+            "bytes": 76488,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-272\/file.pdf",
+            "ms": 125.35743713378906,
+            "bytes": 660624,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-127\/file.pdf",
+            "ms": 2543.314552307129,
+            "bytes": 2102206.4,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-hybrid\/file.pdf",
+            "ms": 0.6262302398681641,
+            "bytes": 70648,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/text-objects-across-multiple-streams\/file.pdf",
+            "ms": 133.99877548217773,
+            "bytes": 811136,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-scripts\/file.pdf",
+            "ms": 9.750223159790039,
+            "bytes": 1134144,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-simple\/file.pdf",
+            "ms": 0.7559776306152344,
+            "bytes": 49912,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-image-simple\/file.pdf",
+            "ms": 0.6691932678222656,
+            "bytes": 109176,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-214\/file.pdf",
+            "ms": 70.95518112182617,
+            "bytes": 710264,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-lorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 136.17677688598633,
+            "bytes": 332640,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-254\/file.pdf",
+            "ms": 2430.2860260009766,
+            "bytes": 11372179.2,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-290\/file.pdf",
+            "ms": 32.98778533935547,
+            "bytes": 669432,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-255\/file.pdf",
+            "ms": 7206.826400756836,
+            "bytes": 2702016,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-150\/file.pdf",
+            "ms": 1.5648365020751953,
+            "bytes": 2715856,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-lorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 24.14255142211914,
+            "bytes": 363808,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple-password\/file.pdf",
+            "ms": null,
+            "bytes": null,
+            "pass": false,
+            "exception": "Secured pdf file are currently not supported."
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreofficelorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 6.633758544921875,
+            "bytes": 403968,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-open-password-hello\/file.pdf",
+            "ms": null,
+            "bytes": null,
+            "pass": false,
+            "exception": "Secured pdf file are currently not supported."
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-149\/file.pdf",
+            "ms": 1.0399341583251953,
+            "bytes": 276416,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-291\/file.pdf",
+            "ms": 224.58219528198242,
+            "bytes": 702816,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-235\/file.pdf",
+            "ms": 2315.011167526245,
+            "bytes": 27997440,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple\/file.pdf",
+            "ms": 0.5934715270996094,
+            "bytes": 51584,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-different-fonts-sizes\/file.pdf",
+            "ms": 1.9834518432617188,
+            "bytes": 211776,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-152\/file.pdf",
+            "ms": 8.879232406616211,
+            "bytes": 226192,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/pdftex-hello-world-simple\/file.pdf",
+            "ms": 0.7085323333740234,
+            "bytes": 63976,
+            "pass": true,
+            "exception": null
+        }
+    ],
+    "prinsfrank\/pdfparser": [
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-watermarked\/file.pdf",
+            "ms": 2.2319793701171875,
+            "bytes": 31864,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-hello-world-simple\/file.pdf",
+            "ms": 1.6488075256347656,
+            "bytes": 36856,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-272\/file.pdf",
+            "ms": 171.37303352355957,
+            "bytes": 418392,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-127\/file.pdf",
+            "ms": 255.07164001464844,
+            "bytes": 588952,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-hybrid\/file.pdf",
+            "ms": 2.225017547607422,
+            "bytes": 39840,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/text-objects-across-multiple-streams\/file.pdf",
+            "ms": 297.9827880859375,
+            "bytes": 318256,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-scripts\/file.pdf",
+            "ms": 42.03519821166992,
+            "bytes": 290632,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-simple\/file.pdf",
+            "ms": 2.816295623779297,
+            "bytes": 25664,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-image-simple\/file.pdf",
+            "ms": 2.0341873168945312,
+            "bytes": 73168,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-214\/file.pdf",
+            "ms": 122.39241600036621,
+            "bytes": 408920,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-lorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 34.824228286743164,
+            "bytes": 161488,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-254\/file.pdf",
+            "ms": 3704.8254013061523,
+            "bytes": 2826528,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-290\/file.pdf",
+            "ms": 143.5542106628418,
+            "bytes": 379528,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-255\/file.pdf",
+            "ms": 5419.1089153289795,
+            "bytes": 927592,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-150\/file.pdf",
+            "ms": 1.6838550567626953,
+            "bytes": 2684256,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-lorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 193.85900497436523,
+            "bytes": 145088,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple-password\/file.pdf",
+            "ms": 4.735374450683594,
+            "bytes": 32336,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreofficelorem-ipsum-with-titles-and-formatting\/file.pdf",
+            "ms": 19.214630126953125,
+            "bytes": 249496,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-open-password-hello\/file.pdf",
+            "ms": 4.238224029541016,
+            "bytes": 41608,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-149\/file.pdf",
+            "ms": 2.188587188720703,
+            "bytes": 229112,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-291\/file.pdf",
+            "ms": 73.64325523376465,
+            "bytes": 186848,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-235\/file.pdf",
+            "ms": 852.887773513794,
+            "bytes": 2423664,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple\/file.pdf",
+            "ms": 2.4816513061523438,
+            "bytes": 29848,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-different-fonts-sizes\/file.pdf",
+            "ms": 8.231449127197266,
+            "bytes": 122056,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-152\/file.pdf",
+            "ms": 28.60565185546875,
+            "bytes": 135328,
+            "pass": true,
+            "exception": null
+        },
+        {
+            "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/pdftex-hello-world-simple\/file.pdf",
+            "ms": 3.928804397583008,
+            "bytes": 45040,
+            "pass": true,
+            "exception": null
+        }
+    ]
+}
