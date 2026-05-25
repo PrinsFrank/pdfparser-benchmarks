@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+use PrinsFrank\PDFParserBenchmarks\BenchMarkRunner;
+
+require __DIR__ . '/vendor/autoload.php';
+
+ini_set('memory_limit', '1G');
+
+$statusCode = new BenchMarkRunner()
+    ->__invoke();
+
+exit($statusCode);
