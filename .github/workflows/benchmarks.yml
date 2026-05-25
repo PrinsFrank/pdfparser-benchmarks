@@ -31,6 +31,15 @@ jobs:
         run: |
           composer benchmark
 
+      - name: check benchmarks
+        run: |
+          cat benchmarks_total.json
+          jq -e '
+            .["prinsfrank/pdfparser"].ms <= .["smalot/pdfparser"].ms and
+            .["prinsfrank/pdfparser"].bytes <= .["smalot/pdfparser"].bytes and
+            .["prinsfrank/pdfparser"].pass >= .["smalot/pdfparser"].pass
+          ' benchmarks_total.json > /dev/null
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
