@@ -7,6 +7,9 @@ use PrinsFrank\PDFParserBenchmarks\BenchMark\BenchMark;
 use PrinsFrank\PDFParserBenchmarks\BenchMark\Samples\SampleProvider;
 
 class BenchMarkRunner {
+    private const OUTPUT_FILE = 'benchmarks.json';
+    private const OUTPUT_FILE_TOTAL = 'benchmarks_total.json';
+
     public function __invoke(): int {
         $libraryFQNs = LibraryProvider::FQNs();
 
@@ -27,7 +30,7 @@ class BenchMarkRunner {
             }
         }
 
-        file_put_contents(dirname(__DIR__) . '/BENCHMARKS.json', json_encode($benchMarks, JSON_PRETTY_PRINT));
+        file_put_contents(dirname(__DIR__) . '/' . self::OUTPUT_FILE, json_encode($benchMarks, JSON_PRETTY_PRINT));
 
         $totalData = [];
         foreach ($benchMarks as $libraryIdentifier => $data) {
@@ -39,7 +42,7 @@ class BenchMarkRunner {
             ];
         }
 
-        file_put_contents(dirname(__DIR__) . '/BENCHMARKS_TOTAL.json', json_encode($totalData, JSON_PRETTY_PRINT));
+        file_put_contents(dirname(__DIR__) . '/' . self::OUTPUT_FILE_TOTAL, json_encode($totalData, JSON_PRETTY_PRINT));
 
         return 0;
     }
