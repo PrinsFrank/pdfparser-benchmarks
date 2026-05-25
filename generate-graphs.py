@@ -139,7 +139,7 @@ def create_figure(theme: str) -> go.Figure:
     return fig
 
 light_fig = create_figure('light')
-light_fig.write_image("benchmark_comparison_light.png", scale=2)
+light_fig.write_image("./public/comparison_light.png", scale=2)
 
 dark_fig = create_figure('dark')
-dark_fig.write_image("benchmark_comparison_dark.png", scale=2)
+dark_fig.write_image("./public/comparison_dark.png", scale=2)

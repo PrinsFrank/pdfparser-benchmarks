@@ -1,0 +1,47 @@
+name: Generate Benchmark Chart
+
+on:
+  schedule:
+    - cron: '17 17 * * *'
+      timezone: 'Europe/Amsterdam'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+
+      - name: Install Composer dependencies
+        run: composer install
+
+      - name: Run benchmark
+        run: |
+          composer benchmark
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install plotly kaleido
+
+      - name: Generate Graphs
+        run: python generate-graphs.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          exclude_assets: '.gitignore'
