@@ -114,8 +114,8 @@ def create_figure(theme: str) -> go.Figure:
         zerolinecolor=grid_color,
     )
 
-    fig.update_yaxes(range=[0, 550], row=1, col=1)
-    fig.update_yaxes(range=[0, 5.5], row=1, col=2)
+    fig.update_yaxes(range=[0, max([data[lib]['ms'] for lib in libraries]) * 1.15], row=1, col=1)
+    fig.update_yaxes(range=[0, max([data[lib]['bytes'] / 1_000_000 for lib in libraries]) * 1.05], row=1, col=2)
     fig.update_yaxes(range=[0, 105], row=1, col=3)
 
     speedup = data['smalot/pdfparser']['ms'] / data['prinsfrank/pdfparser']['ms']
