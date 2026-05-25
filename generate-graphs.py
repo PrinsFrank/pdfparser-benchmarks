@@ -95,7 +95,7 @@ def create_figure(theme: str) -> go.Figure:
         },
         height=500,
         width=1200,
-        margin=dict(t=60, b=80, l=60, r=60)
+        margin=dict(t=110, b=80, l=60, r=60)
     )
 
     fig.update_xaxes(
@@ -123,7 +123,7 @@ def create_figure(theme: str) -> go.Figure:
 
     fig.add_annotation(
         x=0.5,
-        y=-0.15,
+        y=1.25,
         xref='paper',
         yref='paper',
         text=(
@@ -132,7 +132,7 @@ def create_figure(theme: str) -> go.Figure:
             f"with a <b>higher success rate</b>"
         ),
         showarrow=False,
-        font={'size': 14, 'color': annotation_color},
+        font={'size': 20, 'color': annotation_color},
         align='center'
     )
 
