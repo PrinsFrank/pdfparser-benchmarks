@@ -8,7 +8,7 @@ use RecursiveIteratorIterator;
 class SampleProvider {
     private const SAMPLE_PATHS = [
         '/vendor/prinsfrank/pdfparser/tests/Samples/files',
-        '/vendor/smalot/pdfparser/samples',
+//        '/vendor/smalot/pdfparser/samples',
     ];
 
     /** @return list<string> */
