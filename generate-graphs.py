@@ -136,6 +136,17 @@ def create_figure(theme: str) -> go.Figure:
         align='center'
     )
 
+    fig.add_annotation(
+        x=0.5,
+        y=-0.23,
+        xref='paper',
+        yref='paper',
+        text='*based on all non-corrupted test samples in both libraries, see benchmark setup on github.com/prinsfrank/pdfparser-benchmarks',
+        showarrow=False,
+        font={'size': 9, 'color': text_color},
+        align='center'
+    )
+
     return fig
 
 light_fig = create_figure('light')
