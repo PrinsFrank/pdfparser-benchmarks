@@ -17,3 +17,12 @@ Then generate the graphs:
 ```bash
 python generate-graphs.py
 ```
+
+## How this works
+
+The workflow in `.github/workflows/benchmarks.yml` runs on every push to main, manually or daily at 17:17 UTC. It publishes two images:
+
+![](https://prinsfrank.github.io/pdfparser-benchmarks/comparison_light.png)
+![](https://prinsfrank.github.io/pdfparser-benchmarks/comparison_dark.png)
+
+These are used in the readme of `prinsfrank/pdfparser`
