@@ -2,147 +2,147 @@
     "smalot\/pdfparser": [
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreofficelorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 7.061576843261719,
+            "ms": 6.340789794921875,
             "bytes": 403968,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-lorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 132.32274055480957,
+            "ms": 143.3572292327881,
             "bytes": 332640,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-hybrid\/file.pdf",
-            "ms": 0.6653785705566406,
+            "ms": 0.6305694580078125,
             "bytes": 70648,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-different-fonts-sizes\/file.pdf",
-            "ms": 2.0636558532714844,
+            "ms": 1.8851757049560547,
             "bytes": 211776,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-lorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 25.644826889038086,
+            "ms": 23.10943603515625,
             "bytes": 363808,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-hello-world-simple\/file.pdf",
-            "ms": 0.9151458740234375,
+            "ms": 0.8606433868408203,
             "bytes": 76488,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-291\/file.pdf",
-            "ms": 213.3411407470703,
+            "ms": 229.83121871948242,
             "bytes": 702832,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/pdftex-hello-world-simple\/file.pdf",
-            "ms": 0.7385730743408203,
+            "ms": 0.7123470306396484,
             "bytes": 63976,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-393\/file.pdf",
-            "ms": 0.8767604827880859,
+            "ms": 0.8313655853271484,
             "bytes": 71640,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-152\/file.pdf",
-            "ms": 9.266376495361328,
+            "ms": 8.246517181396484,
             "bytes": 226192,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-235\/file.pdf",
-            "ms": 2206.8016052246094,
+            "ms": 2285.989809036255,
             "bytes": 27997584,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-215\/file.pdf",
-            "ms": 55.120038986206055,
+            "ms": 50.22854804992676,
             "bytes": 800680,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-272\/file.pdf",
-            "ms": 160.45403480529785,
+            "ms": 120.88079452514648,
             "bytes": 660624,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-scripts\/file.pdf",
-            "ms": 9.878396987915039,
+            "ms": 8.764028549194336,
             "bytes": 1134144,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-image-simple\/file.pdf",
-            "ms": 0.711822509765625,
+            "ms": 0.6670475006103516,
             "bytes": 109176,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-255\/file.pdf",
-            "ms": 8601.995658874512,
+            "ms": 6977.017259597778,
             "bytes": 2702016,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-149\/file.pdf",
-            "ms": 1.1731624603271484,
+            "ms": 1.0669708251953125,
             "bytes": 276416,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple\/file.pdf",
-            "ms": 0.6208896636962891,
+            "ms": 0.5904197692871094,
             "bytes": 51584,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-watermarked\/file.pdf",
-            "ms": 0.9206295013427734,
+            "ms": 0.8656978607177734,
             "bytes": 70168,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-127\/file.pdf",
-            "ms": 2358.8204383850098,
+            "ms": 2608.9311599731445,
             "bytes": 2102184,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-214\/file.pdf",
-            "ms": 88.49802017211914,
+            "ms": 67.4032211303711,
             "bytes": 710264,
             "pass": true,
             "exception": null
@@ -156,7 +156,7 @@
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/text-objects-across-multiple-streams\/file.pdf",
-            "ms": 131.8920135498047,
+            "ms": 126.52239799499512,
             "bytes": 811136,
             "pass": true,
             "exception": null
@@ -170,21 +170,21 @@
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-150\/file.pdf",
-            "ms": 2.3775577545166016,
+            "ms": 1.5887737274169922,
             "bytes": 2715856,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-290\/file.pdf",
-            "ms": 34.679555892944336,
+            "ms": 31.344175338745117,
             "bytes": 669432,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-simple\/file.pdf",
-            "ms": 0.5656242370605469,
+            "ms": 0.5522251129150391,
             "bytes": 49912,
             "pass": true,
             "exception": null
@@ -198,21 +198,21 @@
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-254\/file.pdf",
-            "ms": 2617.9580211639404,
+            "ms": 2314.754629135132,
             "bytes": 11372201.6,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfcreator_nocompressed.pdf",
-            "ms": 238.0918025970459,
+            "ms": 257.1791648864746,
             "bytes": 182008,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/DocumentWithLotsOfObjects.pdf",
-            "ms": 11692.24820137024,
+            "ms": 10612.331581115723,
             "bytes": 54209336,
             "pass": true,
             "exception": null
@@ -226,378 +226,378 @@
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfcreator.pdf",
-            "ms": 241.16902351379395,
+            "ms": 258.3186149597168,
             "bytes": 182160,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfxchange.pdf",
-            "ms": 25.623416900634766,
+            "ms": 27.048587799072266,
             "bytes": 164120,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/XMP_Metadata.pdf",
-            "ms": 2.550029754638672,
+            "ms": 2.4071693420410156,
             "bytes": 216968,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document2_pdfcreator_nocompressed.pdf",
-            "ms": 0.8228302001953125,
+            "ms": 0.7815837860107422,
             "bytes": 200064,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/SimpleInvoiceFilledExample1.pdf",
-            "ms": 23.984956741333008,
+            "ms": 24.532794952392578,
             "bytes": 1260472,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document-Word-Landscape-printedaspdf.pdf",
-            "ms": 2.4207592010498047,
+            "ms": 2.5717735290527344,
             "bytes": 586208,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document3_pdfcreator_nocompressed.pdf",
-            "ms": 0.41222572326660156,
+            "ms": 0.4065990447998047,
             "bytes": 35896,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_German_Text_Generated_By_Microsoft_Word_2016.pdf",
-            "ms": 32.63578414916992,
+            "ms": 32.68861770629883,
             "bytes": 681464,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/RichDocument_Generated_by_Libreoffice-6.4_PDF-v1.4.pdf",
-            "ms": 2.5621891021728516,
+            "ms": 2.4322032928466797,
             "bytes": 131928,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/SimpleImage_Generated_by_Inkscape-0.92_PDF-v1.4.pdf",
-            "ms": 0.4847526550292969,
+            "ms": 0.49681663513183594,
             "bytes": 36776,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_Turkish_Text_Generated_by_Word_i\u00e7in_Acrobat_PDFMaker_17.pdf",
-            "ms": 7.502985000610352,
+            "ms": 6.968832015991211,
             "bytes": 352976,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Document_Generated_by_SmallPDF.pdf",
-            "ms": 2.4663925170898438,
+            "ms": 2.295351028442383,
             "bytes": 195000,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/R2RML-Spec_Generated_by_Chromium-SaveAs-PDF.pdf",
-            "ms": 10.991764068603516,
+            "ms": 10.039186477661133,
             "bytes": 583544,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/SimpleImage_Generated_by_Inkscape-0.92_PDF-v1.5.pdf",
-            "ms": 0.5050182342529297,
+            "ms": 0.490570068359375,
             "bytes": 36776,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Wikipedia-PDF_Generated_by_Microsoft_Print-to-PDF.pdf",
-            "ms": 19.760417938232422,
+            "ms": 17.754650115966797,
             "bytes": 1344608,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_German_Text_Generated_by_Power_PDF_Create.pdf",
-            "ms": 103.31120491027832,
+            "ms": 111.65127754211426,
             "bytes": 1110296,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/InternationalChars.pdf",
-            "ms": 10.975980758666992,
+            "ms": 10.318613052368164,
             "bytes": 804296,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/ImproperFontFallback.pdf",
-            "ms": 66.45698547363281,
+            "ms": 65.66958427429199,
             "bytes": 7028008,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_foxitreader.pdf",
-            "ms": 20.331954956054688,
+            "ms": 18.468856811523438,
             "bytes": 317392,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue331.pdf",
-            "ms": 34.68647003173828,
+            "ms": 31.575441360473633,
             "bytes": 729576,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue95_ANSI.pdf",
-            "ms": 0.2460002899169922,
+            "ms": 0.24938583374023438,
             "bytes": 16392,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue592.pdf",
-            "ms": 43.2866096496582,
+            "ms": 43.88985633850098,
             "bytes": 502944,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue494.pdf",
-            "ms": 372.6092338562012,
+            "ms": 390.5257225036621,
             "bytes": 601784,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue336_decode_hexadecimal.pdf",
-            "ms": 2.819538116455078,
+            "ms": 2.603769302368164,
             "bytes": 231000,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue665.pdf",
-            "ms": 1.5976905822753906,
+            "ms": 1.4613628387451172,
             "bytes": 96936,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue33.pdf",
-            "ms": 552.3020267486572,
+            "ms": 565.032958984375,
             "bytes": 486526.4,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue585.pdf",
-            "ms": 64.56103324890137,
-            "bytes": 6055628.8,
+            "ms": 64.28327560424805,
+            "bytes": 6055600,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue629.pdf",
-            "ms": 11.788797378540039,
+            "ms": 9.890413284301758,
             "bytes": 2454936,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue608.pdf",
-            "ms": 3.791475296020508,
+            "ms": 3.3983707427978516,
             "bytes": 148512,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue104a.pdf",
-            "ms": 212.3136043548584,
+            "ms": 175.87738037109375,
             "bytes": 104467016,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest793.pdf",
-            "ms": 0.1979827880859375,
+            "ms": 0.2014636993408203,
             "bytes": 13168,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue322.pdf",
-            "ms": 3.415822982788086,
+            "ms": 3.1030654907226562,
             "bytes": 184728,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue398.pdf",
-            "ms": 4.581022262573242,
+            "ms": 4.092264175415039,
             "bytes": 227624,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue334.pdf",
-            "ms": 15.651798248291016,
+            "ms": 13.823461532592773,
             "bytes": 596272,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue727.pdf",
-            "ms": 33.96563529968262,
+            "ms": 30.240726470947266,
             "bytes": 11943096,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue454.pdf",
-            "ms": 290.48194885253906,
+            "ms": 305.871057510376,
             "bytes": 1572672,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue621.pdf",
-            "ms": 77.31213569641113,
+            "ms": 73.41456413269043,
             "bytes": 5714480,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest500.pdf",
-            "ms": 1.0938644409179688,
+            "ms": 1.0073661804199219,
             "bytes": 109096,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue405.pdf",
-            "ms": 0.518798828125,
+            "ms": 0.5036830902099609,
             "bytes": 41464,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue668.pdf",
-            "ms": 195.54481506347656,
+            "ms": 211.28559112548828,
             "bytes": 593560,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue202.pdf",
-            "ms": 0.2948284149169922,
+            "ms": 0.2985954284667969,
             "bytes": 19688,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue557.pdf",
-            "ms": 14.547348022460938,
+            "ms": 13.343191146850586,
             "bytes": 248624,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue18.pdf",
-            "ms": 1.6881942749023438,
+            "ms": 1.5863895416259766,
             "bytes": 145224,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue479.pdf",
-            "ms": 1.4750003814697266,
+            "ms": 1.3625621795654297,
             "bytes": 67776,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue450.pdf",
-            "ms": 0.3151416778564453,
+            "ms": 0.31414031982421875,
             "bytes": 20040,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue356.pdf",
-            "ms": 2889.8255825042725,
+            "ms": 3374.35884475708,
             "bytes": 25001000,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest457.pdf",
-            "ms": 2477.2921562194824,
+            "ms": 2506.2764644622803,
             "bytes": 70584120,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue391.pdf",
-            "ms": 602.7488231658936,
+            "ms": 578.4473896026611,
             "bytes": 4119536,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue609.pdf",
-            "ms": 5.552577972412109,
+            "ms": 5.194187164306641,
             "bytes": 360616,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue267_array_access_on_int.pdf",
-            "ms": 58.59699249267578,
+            "ms": 54.75935935974121,
             "bytes": 4317360,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue673.pdf",
-            "ms": 14.929866790771484,
+            "ms": 13.304996490478516,
             "bytes": 248624,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue359.pdf",
-            "ms": 5.654573440551758,
+            "ms": 5.497026443481445,
             "bytes": 104064,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue229_mac_roman_encoding.pdf",
-            "ms": 1.5302181243896484,
+            "ms": 1.4569759368896484,
             "bytes": 132768,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/SimpleInvoiceFilledExample2.pdf",
-            "ms": 24.451017379760742,
+            "ms": 24.306440353393555,
             "bytes": 1260472,
             "pass": true,
             "exception": null
@@ -606,602 +606,602 @@
     "prinsfrank\/pdfparser": [
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreofficelorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 14.297199249267578,
+            "ms": 11.862993240356445,
             "bytes": 249496,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-lorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 29.232406616210938,
+            "ms": 23.74739646911621,
             "bytes": 161480,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-hybrid\/file.pdf",
-            "ms": 1.6600608825683594,
+            "ms": 1.3355255126953125,
             "bytes": 39840,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-different-fonts-sizes\/file.pdf",
-            "ms": 4.6405792236328125,
+            "ms": 3.8022518157958984,
             "bytes": 122048,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-lorem-ipsum-with-titles-and-formatting\/file.pdf",
-            "ms": 98.88482093811035,
+            "ms": 80.54394721984863,
             "bytes": 145088,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/word365-hello-world-simple\/file.pdf",
-            "ms": 1.6422271728515625,
+            "ms": 1.3790130615234375,
             "bytes": 36848,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-291\/file.pdf",
-            "ms": 59.61446762084961,
+            "ms": 48.44560623168945,
             "bytes": 186840,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/pdftex-hello-world-simple\/file.pdf",
-            "ms": 1.6605854034423828,
+            "ms": 1.380777359008789,
             "bytes": 45040,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-393\/file.pdf",
-            "ms": 2.4129867553710938,
+            "ms": 1.980447769165039,
             "bytes": 37640,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-152\/file.pdf",
-            "ms": 21.69976234436035,
+            "ms": 17.524003982543945,
             "bytes": 135320,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-235\/file.pdf",
-            "ms": 676.1003971099854,
+            "ms": 543.5502052307129,
             "bytes": 2423656,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-215\/file.pdf",
-            "ms": 146.88444137573242,
+            "ms": 117.32873916625977,
             "bytes": 460504,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-272\/file.pdf",
-            "ms": 136.0950469970703,
+            "ms": 103.2289981842041,
             "bytes": 418384,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-scripts\/file.pdf",
-            "ms": 28.36322784423828,
+            "ms": 23.262977600097656,
             "bytes": 290632,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-image-simple\/file.pdf",
-            "ms": 14.928531646728516,
+            "ms": 10.741806030273438,
             "bytes": 74528,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-255\/file.pdf",
-            "ms": 2794.635009765625,
+            "ms": 2010.8391761779785,
             "bytes": 927584,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-149\/file.pdf",
-            "ms": 2.2855758666992188,
+            "ms": 1.8223762512207031,
             "bytes": 229096,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple\/file.pdf",
-            "ms": 1.8320083618164062,
+            "ms": 1.4911651611328125,
             "bytes": 29848,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-watermarked\/file.pdf",
-            "ms": 1.593923568725586,
+            "ms": 1.3108253479003906,
             "bytes": 31864,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-127\/file.pdf",
-            "ms": 198.4261989593506,
+            "ms": 160.64562797546387,
             "bytes": 588944,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-214\/file.pdf",
-            "ms": 105.24206161499023,
+            "ms": 78.41882705688477,
             "bytes": 408912,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-148\/file.pdf",
-            "ms": 84.5008373260498,
+            "ms": 62.094974517822266,
             "bytes": 369248,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/text-objects-across-multiple-streams\/file.pdf",
-            "ms": 245.68181037902832,
+            "ms": 192.53897666931152,
             "bytes": 318248,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-open-password-hello\/file.pdf",
-            "ms": 7.862377166748047,
+            "ms": 5.98902702331543,
             "bytes": 42968,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-150\/file.pdf",
-            "ms": 2.678346633911133,
+            "ms": 1.6005992889404297,
             "bytes": 2684256,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-290\/file.pdf",
-            "ms": 102.69460678100586,
+            "ms": 83.0009937286377,
             "bytes": 374752,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/libreoffice-hello-world-simple\/file.pdf",
-            "ms": 1.4313697814941406,
+            "ms": 1.2179851531982422,
             "bytes": 25664,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/gdocs-hello-world-simple-password\/file.pdf",
-            "ms": 3.8253307342529297,
+            "ms": 3.3132076263427734,
             "bytes": 32176,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/prinsfrank\/pdfparser\/tests\/Samples\/files\/issue-254\/file.pdf",
-            "ms": 2539.0276432037354,
+            "ms": 2117.371988296509,
             "bytes": 2826512,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfcreator_nocompressed.pdf",
-            "ms": 21.811389923095703,
+            "ms": 17.457008361816406,
             "bytes": 129288,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/DocumentWithLotsOfObjects.pdf",
-            "ms": 2278.1806468963623,
+            "ms": 1888.6666774749756,
             "bytes": 8859000,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/not_really_encrypted.pdf",
-            "ms": 2.481508255004883,
+            "ms": 2.17742919921875,
             "bytes": 26200,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfcreator.pdf",
-            "ms": 21.818017959594727,
+            "ms": 17.879676818847656,
             "bytes": 100696,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_pdfxchange.pdf",
-            "ms": 8.706426620483398,
+            "ms": 7.156610488891602,
             "bytes": 54920,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/XMP_Metadata.pdf",
-            "ms": 4.618167877197266,
+            "ms": 3.8146018981933594,
             "bytes": 95208,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document2_pdfcreator_nocompressed.pdf",
-            "ms": 1.2889862060546875,
+            "ms": 1.050424575805664,
             "bytes": 149728,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/SimpleInvoiceFilledExample1.pdf",
-            "ms": 12.911272048950195,
+            "ms": 10.497188568115234,
             "bytes": 461704,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document-Word-Landscape-printedaspdf.pdf",
-            "ms": 46.84782028198242,
+            "ms": 34.261178970336914,
             "bytes": 210776,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document3_pdfcreator_nocompressed.pdf",
-            "ms": 0.6920337677001953,
+            "ms": 0.5769729614257812,
             "bytes": 25392,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_German_Text_Generated_By_Microsoft_Word_2016.pdf",
-            "ms": 21.938657760620117,
+            "ms": 18.344545364379883,
             "bytes": 195272,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/RichDocument_Generated_by_Libreoffice-6.4_PDF-v1.4.pdf",
-            "ms": 6.0482025146484375,
+            "ms": 4.996061325073242,
             "bytes": 86928,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/SimpleImage_Generated_by_Inkscape-0.92_PDF-v1.4.pdf",
-            "ms": 1.3365745544433594,
+            "ms": 1.1372566223144531,
             "bytes": 22512,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_Turkish_Text_Generated_by_Word_i\u00e7in_Acrobat_PDFMaker_17.pdf",
-            "ms": 16.388463973999023,
+            "ms": 13.53445053100586,
             "bytes": 166672,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Document_Generated_by_SmallPDF.pdf",
-            "ms": 5.451011657714844,
+            "ms": 4.470586776733398,
             "bytes": 77160,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/R2RML-Spec_Generated_by_Chromium-SaveAs-PDF.pdf",
-            "ms": 25.949430465698242,
+            "ms": 20.712995529174805,
             "bytes": 135976,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/SimpleImage_Generated_by_Inkscape-0.92_PDF-v1.5.pdf",
-            "ms": 1.3477802276611328,
+            "ms": 1.1417388916015625,
             "bytes": 22512,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Wikipedia-PDF_Generated_by_Microsoft_Print-to-PDF.pdf",
-            "ms": 145.83663940429688,
+            "ms": 109.6670150756836,
             "bytes": 432640,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/grouped-by-generator\/Mostly_German_Text_Generated_by_Power_PDF_Create.pdf",
-            "ms": 21.155834197998047,
+            "ms": 17.08855628967285,
             "bytes": 226672,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/InternationalChars.pdf",
-            "ms": 18.737220764160156,
+            "ms": 15.165233612060547,
             "bytes": 335368,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/ImproperFontFallback.pdf",
-            "ms": 31.28504753112793,
+            "ms": 26.452064514160156,
             "bytes": 1214200,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/Document1_foxitreader.pdf",
-            "ms": 20.0106143951416,
+            "ms": 15.812015533447266,
             "bytes": 184016,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue331.pdf",
-            "ms": 61.28411293029785,
+            "ms": 49.83878135681152,
             "bytes": 313448,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue95_ANSI.pdf",
-            "ms": 0.8012294769287109,
+            "ms": 0.6781101226806641,
             "bytes": 10936,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue592.pdf",
-            "ms": 26.764678955078125,
+            "ms": 23.343420028686523,
             "bytes": 256648,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue494.pdf",
-            "ms": 153.79719734191895,
+            "ms": 127.42056846618652,
             "bytes": 229216,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue336_decode_hexadecimal.pdf",
-            "ms": 2.3783206939697266,
+            "ms": 2.0102500915527344,
             "bytes": 46160,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue665.pdf",
-            "ms": 2.1296024322509766,
+            "ms": 1.7580032348632812,
             "bytes": 43432,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue33.pdf",
-            "ms": 77.81877517700195,
+            "ms": 61.89684867858887,
             "bytes": 262648,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue585.pdf",
-            "ms": 34.62839126586914,
-            "bytes": 1022064,
+            "ms": 28.718137741088867,
+            "bytes": 1022112,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue629.pdf",
-            "ms": 9.673500061035156,
+            "ms": 7.7789306640625,
             "bytes": 205816,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue608.pdf",
-            "ms": 6.46209716796875,
+            "ms": 5.224847793579102,
             "bytes": 70080,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue104a.pdf",
-            "ms": 1.78985595703125,
+            "ms": 1.4562129974365234,
             "bytes": 134312,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest793.pdf",
-            "ms": 0.6762027740478516,
+            "ms": 0.5643367767333984,
             "bytes": 9064,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue322.pdf",
-            "ms": 11.027002334594727,
+            "ms": 8.954668045043945,
             "bytes": 101992,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue398.pdf",
-            "ms": 14.787626266479492,
+            "ms": 11.856555938720703,
             "bytes": 104296,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue334.pdf",
-            "ms": 58.873844146728516,
+            "ms": 45.52292823791504,
             "bytes": 231576,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue727.pdf",
-            "ms": 0.8279800415039062,
+            "ms": 0.6476402282714844,
             "bytes": 225064,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue454.pdf",
-            "ms": 1.8263816833496094,
+            "ms": 1.436614990234375,
             "bytes": 469768,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue621.pdf",
-            "ms": 98.8621711730957,
+            "ms": 87.78595924377441,
             "bytes": 16299208,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest500.pdf",
-            "ms": 1.7041683197021484,
+            "ms": 1.4309883117675781,
             "bytes": 43624,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue405.pdf",
-            "ms": 3.5076141357421875,
+            "ms": 2.670145034790039,
             "bytes": 30072,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue668.pdf",
-            "ms": 37.84337043762207,
+            "ms": 30.465364456176758,
             "bytes": 176584,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue202.pdf",
-            "ms": 0.9176254272460938,
+            "ms": 0.7565975189208984,
             "bytes": 11840,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue557.pdf",
-            "ms": 34.207773208618164,
+            "ms": 26.44481658935547,
             "bytes": 125912,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue18.pdf",
-            "ms": 2.698516845703125,
+            "ms": 2.186250686645508,
             "bytes": 41120,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue479.pdf",
-            "ms": 3.1313419342041016,
+            "ms": 2.5266647338867188,
             "bytes": 43280,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue450.pdf",
-            "ms": 0.9119987487792969,
+            "ms": 0.7688045501708984,
             "bytes": 11872,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue356.pdf",
-            "ms": 26.776552200317383,
+            "ms": 21.017026901245117,
             "bytes": 6104712,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/PullRequest457.pdf",
-            "ms": 3907.061243057251,
+            "ms": 2952.3311614990234,
             "bytes": 18682176,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue391.pdf",
-            "ms": 1391.7001247406006,
+            "ms": 1069.0442085266113,
             "bytes": 1276840,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue609.pdf",
-            "ms": 11.695051193237305,
+            "ms": 9.601831436157227,
             "bytes": 187040,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue267_array_access_on_int.pdf",
-            "ms": 751.6454219818115,
+            "ms": 562.750768661499,
             "bytes": 2461832,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue673.pdf",
-            "ms": 33.1632137298584,
+            "ms": 26.45401954650879,
             "bytes": 125912,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue359.pdf",
-            "ms": 5.108404159545898,
+            "ms": 4.169797897338867,
             "bytes": 43544,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/bugs\/Issue229_mac_roman_encoding.pdf",
-            "ms": 2.839994430541992,
+            "ms": 2.324056625366211,
             "bytes": 60632,
             "pass": true,
             "exception": null
         },
         {
             "filename": "\/vendor\/smalot\/pdfparser\/samples\/SimpleInvoiceFilledExample2.pdf",
-            "ms": 12.730026245117188,
+            "ms": 10.238409042358398,
             "bytes": 461704,
             "pass": true,
             "exception": null
