@@ -13,24 +13,26 @@ class BenchMarkRunner {
     public function __invoke(): int {
         $libraryFQNs = LibraryProvider::FQNs();
 
-        $benchMarks = [];
+        $benchMarks = $benchMarksByFile = [];
         foreach (SampleProvider::getSamplePaths() as $fileName) {
             foreach ($libraryFQNs as $libraryFQN) {
                 echo 'Running benchmark for ' . $libraryFQN::getIdentifier() . ' on ' . $fileName . '...' . PHP_EOL;
                 $benchmark = (new BenchMark())
                     ->__invoke(dirname(__DIR__) . $fileName, $libraryFQN, $this->getUserPasswordForFile($fileName), $this->getOwnerPasswordForFile($fileName));
 
-                $benchMarks[$libraryFQN::getIdentifier()][] = [
+                $benchmarkData = [
                     'filename' => $fileName,
                     'ms' => $benchmark->msTaken,
                     'bytes' => $benchmark->bytesMemoryConsumed,
                     'pass' => $benchmark->exception === null,
                     'exception' => $benchmark->exception !== null ? substr($benchmark->exception->getMessage(), 0, 200) : null,
                 ];
+                $benchMarks[$libraryFQN::getIdentifier()][] = $benchmarkData;
+                $benchMarksByFile[$fileName][$libraryFQN::getIdentifier()] = $benchmarkData;
             }
         }
 
-        file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE, json_encode($benchMarks, JSON_PRETTY_PRINT));
+        file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE, json_encode($benchMarksByFile, JSON_PRETTY_PRINT));
 
         $totalData = [];
         foreach ($benchMarks as $libraryIdentifier => $data) {
