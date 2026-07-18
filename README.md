@@ -10,7 +10,7 @@ composer i
 
 Then run the benchmarks:
 ```bash
-composer benchmarks
+composer benchmark
 ```
 
 Then generate the graphs:
