@@ -5,7 +5,7 @@ import json
 with open('public/benchmarks_total.json', 'r') as f:
     data = json.load(f)
 
-libraries = list(data.keys())
+libraries = [key for key in data.keys() if key != 'environment']
 colors = ['#e74c3c', '#2ecc71']
 
 def create_figure(theme: str) -> go.Figure:
