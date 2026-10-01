@@ -34,7 +34,7 @@ class BenchMarkRunner {
 
         file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE, json_encode($benchMarksByFile, JSON_PRETTY_PRINT));
 
-        $totalData = [];
+        $totalData = ['environment' => ['cpu_count'  => shell_exec('nproc') ?? 'unknown', 'opcache_enabled' => function_exists('opcache_get_status') && opcache_get_status() !== false, 'memory_limit' => ini_get('memory_limit')]];
         foreach ($benchMarks as $libraryIdentifier => $data) {
             $successfullyParsedFiles = array_filter($data, fn(array $test): bool => $test['pass']);
             $totalData[$libraryIdentifier] = [
