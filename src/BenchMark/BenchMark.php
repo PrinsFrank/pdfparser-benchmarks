@@ -17,8 +17,6 @@ class BenchMark {
             return new BenchMarkRun($e, null, null);
         }
 
-        gc_collect_cycles();
-        gc_mem_caches();
         for ($i = 0; $i < self::NR_OF_WARMUP_RUNS; $i++) {
             try {
                 (new $libraryFQN())->getText($filePath, $userPassword, $ownerPassword);
@@ -28,6 +26,9 @@ class BenchMark {
 
         $bytesMemoryConsumedList = $msTakenList = [];
         for ($i = 0; $i < self::NR_OF_RUNS; $i++) {
+            gc_collect_cycles();
+            gc_mem_caches();
+
             $memoryStart = memory_get_usage(false);
             $timeStart = microtime(true);
             $result = (new $libraryFQN())
