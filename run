@@ -5,7 +5,7 @@ use PrinsFrank\PDFParserBenchmarks\BenchMarkRunner;
 
 require __DIR__ . '/vendor/autoload.php';
 
-ini_set('memory_limit', '1G');
+ini_set('memory_limit', '2G');
 
 $statusCode = new BenchMarkRunner()
     ->__invoke();
