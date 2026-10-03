@@ -41,10 +41,6 @@ class BenchMark {
             unset($result);
         }
 
-        return new BenchMarkRun(
-            null,
-            array_sum($msTakenList) / count($msTakenList),
-            array_sum($bytesMemoryConsumedList) / count($bytesMemoryConsumedList),
-        );
+        return new BenchMarkRun(null, $msTakenList, $bytesMemoryConsumedList);
     }
 }
