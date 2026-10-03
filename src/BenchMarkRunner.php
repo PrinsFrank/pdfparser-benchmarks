@@ -45,8 +45,8 @@ class BenchMarkRunner {
             }
 
             $totalData[$libraryIdentifier] = [
-                'ms' => $this->getMedian($msMeans),
-                'bytes' => $this->getMedian($bytesMean),
+                'ms' => array_sum($msMeans) / count($msMeans),
+                'bytes' => array_sum($bytesMean) / count($msMeans),
                 'pass' => count($successfullyParsedFiles) / count($data) * 100,
             ];
         }
