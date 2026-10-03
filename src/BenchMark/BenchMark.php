@@ -6,6 +6,7 @@ use PrinsFrank\PDFParserBenchmarks\BenchMark\Library\Library;
 use Throwable;
 
 class BenchMark {
+    private const NR_OF_WARMUP_RUNS = 3;
     private const NR_OF_RUNS = 10;
 
     /** @param class-string<Library> $libraryFQN */
@@ -14,6 +15,13 @@ class BenchMark {
             (new $libraryFQN())->getText($filePath, $userPassword, $ownerPassword);
         } catch (Throwable $e) {
             return new BenchMarkRun($e, null, null);
+        }
+
+        for ($i = 0; $i < self::NR_OF_WARMUP_RUNS; $i++) {
+            try {
+                (new $libraryFQN())->getText($filePath, $userPassword, $ownerPassword);
+            } catch (Throwable) {
+            }
         }
 
         $bytesMemoryConsumedList = $msTakenList = [];
