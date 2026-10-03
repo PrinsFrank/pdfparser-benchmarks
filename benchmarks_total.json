@@ -2,16 +2,16 @@
     "environment": {
         "cpu_count": "4\n",
         "opcache_enabled": true,
-        "memory_limit": "1G"
+        "memory_limit": "2G"
     },
     "smalot\/pdfparser": {
-        "ms": 127.98100113868713,
-        "bytes": 4227637.536363636,
+        "ms": 7.69805908203125,
+        "bytes": 248624,
         "pass": 95.65217391304348
     },
     "prinsfrank\/pdfparser": {
-        "ms": 94.89009950471961,
-        "bytes": 962413.4782608695,
+        "ms": 5.520820617675781,
+        "bytes": 147336,
         "pass": 100
     }
 }
