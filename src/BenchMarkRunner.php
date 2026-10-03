@@ -37,9 +37,16 @@ class BenchMarkRunner {
         $totalData = ['environment' => ['cpu_count' => shell_exec('nproc') ?? 'unknown', 'opcache_enabled' => function_exists('opcache_get_status') && opcache_get_status() !== false, 'memory_limit' => ini_get('memory_limit')]];
         foreach ($benchMarks as $libraryIdentifier => $data) {
             $successfullyParsedFiles = array_filter($data, fn(array $test): bool => $test['pass']);
+
+            $msMeans = $bytesMean = [];
+            foreach ($successfullyParsedFiles as $successfullyParsedFile) {
+                $msMeans[] = $this->getMedian($successfullyParsedFile['ms']);
+                $bytesMean[] = $this->getMedian($successfullyParsedFile['bytes']);
+            }
+
             $totalData[$libraryIdentifier] = [
-                'ms' => array_sum(array_column($successfullyParsedFiles, 'ms')) / count($successfullyParsedFiles),
-                'bytes' => array_sum(array_column($successfullyParsedFiles, 'bytes')) / count($successfullyParsedFiles),
+                'ms' => $this->getMedian($msMeans),
+                'bytes' => $this->getMedian($bytesMean),
                 'pass' => count($successfullyParsedFiles) / count($data) * 100,
             ];
         }
@@ -47,6 +54,17 @@ class BenchMarkRunner {
         file_put_contents(dirname(__DIR__) . '/public/' . self::OUTPUT_FILE_TOTAL, json_encode($totalData, JSON_PRETTY_PRINT));
 
         return 0;
+    }
+
+    /** @param list<float> $values */
+    private function getMedian(array $values): float {
+        sort($values);
+        $nrOfItems = count($values);
+        if ($nrOfItems % 2 === 0) {
+            return ($values[floor($nrOfItems / 2)] + $values[ceil($nrOfItems / 2)]) / 2;
+        }
+
+        return $values[$nrOfItems / 2];
     }
 
     private function getUserPasswordForFile(string $fileName): ?string {
