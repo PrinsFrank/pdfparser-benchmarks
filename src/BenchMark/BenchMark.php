@@ -6,8 +6,8 @@ use PrinsFrank\PDFParserBenchmarks\BenchMark\Library\Library;
 use Throwable;
 
 class BenchMark {
-    private const NR_OF_WARMUP_RUNS = 3;
-    private const NR_OF_RUNS = 10;
+    private const NR_OF_WARMUP_RUNS = 10;
+    private const NR_OF_RUNS = 20;
 
     /** @param class-string<Library> $libraryFQN */
     public function __invoke(string $filePath, string $libraryFQN, ?string $userPassword, ?string $ownerPassword): BenchMarkRun {
