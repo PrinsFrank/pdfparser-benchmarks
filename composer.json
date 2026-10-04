@@ -30,7 +30,6 @@
     },
     "scripts": {
         "cs": "php-cs-fixer fix --allow-risky=yes --dry-run",
-        "cs:fix": "php-cs-fixer fix --allow-risky=yes",
-        "benchmark": "./run"
+        "cs:fix": "php-cs-fixer fix --allow-risky=yes"
     }
 }

@@ -34,7 +34,7 @@ jobs:
 
       - name: Run benchmark
         run: |
-          composer benchmark
+          ./run
 
       - name: check benchmarks
         run: |
