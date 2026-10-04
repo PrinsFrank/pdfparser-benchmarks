@@ -27,7 +27,16 @@ jobs:
             opcache.enable=1
             opcache.enable_cli=1
             opcache.validate_timestamps=0
-            opcache.jit=on
+            opcache.jit=tracing
+            opcache.jit_buffer_size=256M
+            opcache.jit_hot_loop=32
+            opcache.jit_hot_func=64
+            opcache.jit_max_root_traces=4096
+            opcache.jit_max_side_traces=512
+            opcache.memory_consumption=512
+            opcache.huge_code_pages=1
+            opcache.interned_strings_buffers=16
+            opcache.max_accelerated_files=20000
 
       - name: Install Composer dependencies
         run: composer install --optimize-autoloader --classmap-authoritative --no-dev
