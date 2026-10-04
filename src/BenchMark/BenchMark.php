@@ -30,14 +30,14 @@ class BenchMark {
             gc_mem_caches();
 
             $memoryStart = memory_get_usage(false);
-            $timeStart = microtime(true);
+            $timeStart = hrtime(true);
             $result = (new $libraryFQN())
                 ->getText($filePath, $userPassword, $ownerPassword);
             $memoryEnd = memory_get_usage(false);
-            $timeEnd = microtime(true);
+            $timeEnd = hrtime(true);
 
             $bytesMemoryConsumedList[] = $memoryEnd - $memoryStart;
-            $msTakenList[] = ($timeEnd - $timeStart) * 1000;
+            $msTakenList[] = ($timeEnd - $timeStart) / 1_000_000;
 
             unset($result);
         }
