@@ -2,7 +2,7 @@ name: Generate Benchmark Chart
 
 on:
   schedule:
-    - cron: '11 17 * * *'
+    - cron: '27 5 * * *'
       timezone: 'Europe/Amsterdam'
   push:
     branches:
