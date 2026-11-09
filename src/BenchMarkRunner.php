@@ -45,8 +45,16 @@ class BenchMarkRunner {
             }
 
             $totalData[$libraryIdentifier] = [
-                'ms' => array_sum($msMeans) / count($msMeans),
-                'bytes' => array_sum($bytesMean) / count($msMeans),
+                'ms' => [
+                    'p5' => $this->getPercentile($msMeans, 5),
+                    'median' => array_sum($msMeans) / count($msMeans),
+                    'p95' => $this->getPercentile($msMeans, 95),
+                ],
+                'bytes' => [
+                    'p5' => $this->getPercentile($bytesMean, 5),
+                    'median' => array_sum($bytesMean) / count($msMeans),
+                    'p95' => $this->getPercentile($bytesMean, 95),
+                ],
                 'pass' => count($successfullyParsedFiles) / count($data) * 100,
             ];
         }
@@ -65,6 +73,16 @@ class BenchMarkRunner {
         }
 
         return $values[$nrOfItems / 2];
+    }
+
+    /** @param list<float> $values */
+    private function getPercentile(array $values, int $percentile): float {
+        sort($values);
+        if (($nrOfItems = count($values)) === 0) {
+            return 0.0;
+        }
+
+        return $values[(int) round(($percentile / 100) * ($nrOfItems - 1))];
     }
 
     private function getUserPasswordForFile(string $fileName): ?string {

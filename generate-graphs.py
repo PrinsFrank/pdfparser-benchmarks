@@ -31,14 +31,25 @@ def create_figure(theme: str) -> go.Figure:
     fig.add_trace(
         go.Bar(
             x=libraries,
-            y=[data[lib]['ms'] for lib in libraries],
+            y=[data[lib]['ms']['median'] for lib in libraries],
+            error_y={
+                'type': 'data',
+                'array': [
+                    data[lib]['ms']['p95'] - data[lib]['ms']['median'] for lib in libraries
+                ],
+                'arrayminus': [
+                    data[lib]['ms']['median'] - data[lib]['ms']['p5'] for lib in libraries
+                ],
+                'visible': True,
+                'color': text_color,
+            },
             marker={
                 'color': colors,
                 'line': {
                     'width': 0,
                 },
             },
-            text=[f"{data[lib]['ms']:.1f} ms" for lib in libraries],
+            text=[f"{data[lib]['ms']['median']:.1f} ms" for lib in libraries],
             textposition='outside',
             textfont={'color': text_color},
             showlegend=False
@@ -50,14 +61,25 @@ def create_figure(theme: str) -> go.Figure:
     fig.add_trace(
         go.Bar(
             x=libraries,
-            y=[data[lib]['bytes'] / 1_000_000 for lib in libraries],
+            y=[data[lib]['bytes']['median'] / 1_000_000 for lib in libraries],
+            error_y={
+                'type': 'data',
+                'array': [
+                    (data[lib]['bytes']['p95'] - data[lib]['bytes']['median']) / 1_000_000 for lib in libraries
+                ],
+                'arrayminus': [
+                    (data[lib]['bytes']['median'] - data[lib]['bytes']['p5']) / 1_000_000 for lib in libraries
+                ],
+                'visible': True,
+                'color': text_color,
+            },
             marker={
                 'color': colors,
                 'line': {
                     'width': 0,
                 },
             },
-            text=[f"{data[lib]['bytes'] / 1_000_000:.2f} MB" for lib in libraries],
+            text=[f"{data[lib]['bytes']['median'] / 1_000_000:.2f} MB" for lib in libraries],
             textposition='outside',
             textfont={'color': text_color},
             showlegend=False
@@ -85,7 +107,34 @@ def create_figure(theme: str) -> go.Figure:
         col=3
     )
 
+    annotations = list(fig.layout.annotations)
+    annotations.extend([
+        {
+            'x': lib,
+            'y': data[lib]['ms']['p95'],
+            'text': f"p95: {data[lib]['ms']['p95']:.2f}",
+            'showarrow': False,
+            'yshift': 10,
+            'xref': 'x',
+            'yref': 'y',
+        }
+        for lib in libraries
+    ])
+    annotations.extend([
+        {
+            'x': lib,
+            'y': data[lib]['bytes']['p95'] / 1_000_000,
+            'text': f"p95: {data[lib]['bytes']['p95'] / 1_000_000:.2f}",
+            'showarrow': False,
+            'yshift': 10,
+            'xref': 'x2',
+            'yref': 'y2',
+        }
+        for lib in libraries
+    ])
+
     fig.update_layout(
+        annotations = annotations,
         plot_bgcolor=plot_background_color,
         paper_bgcolor=background_color,
         font={
@@ -114,12 +163,12 @@ def create_figure(theme: str) -> go.Figure:
         zerolinecolor=grid_color,
     )
 
-    fig.update_yaxes(range=[0, max([data[lib]['ms'] for lib in libraries]) * 1.15], row=1, col=1)
-    fig.update_yaxes(range=[0, max([data[lib]['bytes'] / 1_000_000 for lib in libraries]) * 1.05], row=1, col=2)
+    fig.update_yaxes(range=[0, max([data[lib]['ms']['p95'] for lib in libraries]) * 1.15], row=1, col=1)
+    fig.update_yaxes(range=[0, max([data[lib]['bytes']['p95'] / 1_000_000 for lib in libraries]) * 1.05], row=1, col=2)
     fig.update_yaxes(range=[0, 105], row=1, col=3)
 
-    speedup = data['smalot/pdfparser']['ms'] / data['prinsfrank/pdfparser']['ms']
-    memory_reduction = data['smalot/pdfparser']['bytes'] / data['prinsfrank/pdfparser']['bytes']
+    speedup = data['smalot/pdfparser']['ms']['median'] / data['prinsfrank/pdfparser']['ms']['median']
+    memory_reduction = data['smalot/pdfparser']['bytes']['median'] / data['prinsfrank/pdfparser']['bytes']['median']
 
     fig.add_annotation(
         x=0.5,
