@@ -48,8 +48,8 @@ jobs:
         run: |
           cat public/benchmarks_total.json
           jq -e '
-            .["prinsfrank/pdfparser"].ms <= .["smalot/pdfparser"].ms and
-            .["prinsfrank/pdfparser"].bytes <= .["smalot/pdfparser"].bytes and
+            .["prinsfrank/pdfparser"].ms.median <= .["smalot/pdfparser"].ms.median and
+            .["prinsfrank/pdfparser"].bytes.median <= .["smalot/pdfparser"].bytes.median and
             .["prinsfrank/pdfparser"].pass >= .["smalot/pdfparser"].pass
           ' public/benchmarks_total.json > /dev/null
 
